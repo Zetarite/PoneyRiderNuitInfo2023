@@ -1,0 +1,26 @@
+body{
+    margin: 0 0 10% 10% ;
+    background: antiquewhite;
+}
+h1{
+    text-align: center;
+}
+#resume{
+    background: blanchedalmond;
+    border:solid;
+    border-radius: 10%;
+    margin: 2% 2% 2% 2%;
+    padding: 1% 1% 1% 1%;
+}
+#resume>header{
+    margin: 2% 2% 2% 2%;
+    padding: 1% 1% 1% 1%;
+    background: #8fbc8f;
+    border-radius: 10%;
+}
+#resume>article{
+    margin: 5% 5% 5% 5%;
+    padding: 1% 1% 1% 1%;
+    border-radius: 5%;
+    background: #9fdc9f;
+}
