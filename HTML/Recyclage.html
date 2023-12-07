@@ -6,10 +6,16 @@
     <link href="Recyclage.css" rel="stylesheet">
 </head>
 <body>
+<nav>
+    <ul>
+        <li><button onclick="changeLanguage('fr')">Français</button></li>
+        <li><button onclick="changeLanguage('en')">English</button></li>
+    </ul>
+</nav>
     <h1>Jet de poubelle</h1>
     <section>
         <header>
-            <h2>Définition du recyclage : </h2>
+            <h2 data-i18n="h2_recyclage"></h2>
         </header>
         <p>
             Reduire : le déchet le plus facile à recycler est celui qu'on ne produit pas ! <br>
@@ -76,4 +82,5 @@
         </header>
     </section>
 </body>
+<script src="translation.js"></script>
 </html>

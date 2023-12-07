@@ -13,6 +13,7 @@ var spawnedLeaks = [];
 async function spawnLeak(){
     if(leakPositions.length===spawnedLeaks.length)
         return;
+
     let leak = document.createElement("div");
     leak.classList.add("block");
     let index=-1;
