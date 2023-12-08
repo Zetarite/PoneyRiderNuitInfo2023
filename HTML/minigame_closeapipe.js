@@ -3,8 +3,8 @@ var pipeRect = pipes.getBoundingClientRect();
 var score = 0;
 var interval = 1000;
 
-var adjustmentTop = 20;
-var adjustmentLeft = 10;
+var adjustmentTop = 120;
+var adjustmentLeft = -75;
 
 var leakPositions = [[784,161, 0], [721, 255, 1], [774, 314, 2], [735,373, 3], [845,416, 4], [744,460, 5], [764,559, 6],
     [892,175, 7], [892,311, 8], [892,498, 9],
@@ -19,7 +19,7 @@ async function spawnLeak(){
 
     let leak = document.createElement("img");
     leak.classList.add("block");
-    leak.src = "fire.gif";
+    leak.src = "Ressourses/fire.gif";
     let index=-1;
     do {
         index = Math.floor(Math.random() * leakPositions.length);
@@ -43,6 +43,7 @@ async function spawnLeak(){
 }
 
 function leakClickHandler(){
+    console.log("test");
     let identifier =this.getAttribute("leakIdentifier");
     let index=spawnedLeaks.indexOf(parseInt(identifier));
     spawnedLeaks.splice(index, index);
