@@ -25,6 +25,20 @@ body{
 .navbar a {
     color: white;
 }
+.navbar button{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1em;
+    
+    
+}
+#botBorder{
+    text-decoration:underline 3px #2e6e42;
+    text-underline-offset: 4vh;
+    
+}
+
 .navbar .logo{
     font-size: 2em;
     font-weight: bold;
