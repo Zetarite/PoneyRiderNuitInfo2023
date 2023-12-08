@@ -1,3 +1,36 @@
 {
-  "h2_recyclage": "Définition du recyclage : "
+  "titre_recyclable": "Jet de poubelle",
+  "h2_def_recyclage": "Définition du recyclage : ",
+  "p_recyclage": "Reduire : le déchet le plus facile à recycler est celui qu'on ne produit pas !\nRéutiliser : réemployer les objets au lieu de les jeter est un refexe d'un mode de consommation plus sain permettant ainsi d'alloger la durée de vie de nos produits.\nRecycler : si les deux premieres options sont épuisées, le mieux est de recycler le déchet. Pour cela, il est important de respecter les consignes de tri des déchets pour qu'il puisse être correctement recyclés.",
+  "h2_logo_recyclage" : "Logo :",
+  "img_triman": "Triman : Le produit doit être trié ou rapporté dans un point de collecte pour être recyclé.",
+  "img_moebius" : "Triangle de Moebius : Le produit ou l'emballage est techniquement recyclable.",
+  "img_info": "Consignes info-tri : Signalitique visant à rendre plus claires les consignes de tri.",
+  "img_poubelle" : "Poubelle barrée : les déchets qui ont ce symbole doivent être collectés séparément.",
+  "h3_recyclage": "Attention !",
+  "img_emballage": "Point vert : Indique tout simplement que l'entreprise est partenaire du programme français de valorisation des emballages ménagers.",
+  "img_tidyman": "Tidyman : Incite les consommateurs à jeter leur dechet dans une poubelle.",
+  "p_new_recyclage": "Le recyclage de dechets permet de les transformer en de nouveaux produits :",
+  "li_pull_recyclage": "avec 27 bouteilles en plastique, on peut fabriquer un pull polaire",
+  "li_rouleau_recyclage": "avec 4 briques de lait, on peut fabriquer un rouleau de papier toilettes",
+  "li_trot_recyclage": "2kg de canettes en alluminium, on peut fabriquer une trotinette",
+  "p_eco_recyclage": "Le recyclage des dechets permet d'économiser des matières premières comme le bois ou le pétrole. Ainsi, le recyclage peu tprotéger la nature.\nOn peut économiser du pétrole en recyclent des bouteilles et flacons en plastique.\nOn peut économiser du bois en recyclent du cartons, papier et briques alimentaires.\nOn peut économiser du fer et de la bauxite en recyclent des canettes, boites de conserves, bombes aérosol en acier ou en aluminium.\nOn peut économiser du sable silicieux en recyclent des bouteilles, bocaux et pots en verre.\n",
+  "h2_poubelle_recyclage": "Poubelle de recyclage : ",
+  "p_vert_recyclage": "Poubelle verte : Le verre (sans les bouchons de plastique)",
+  "p_jaune_recyclage": "Poubelle Jaune : Le plastique (si pas de poubelle bleue, le carton et le papier)",
+  "p_bleu_recyclage": "Poubelle bleu : Le papier, les journeaux, les annuaires, les prospectus",
+  "p_marron_recyclage": "Poubelle marron : Les déchets organiques",
+  "p_inci_recyclage": "Les déchets non triés sont incinérés ou apportés dans des centres de stockage des ordures ménagères.",
+  "h2_enjeux_recyclage": "Les enjeux du recyclage : ",
+  "p_enjeux_recyclage": "Le recyclage permet d'éviter les émissions de gaz à effet de serre causés par l'extraction de ressources naturelles.",
+  "h2_jeu_recyclage": "Le jeu du recyclage :",
+
+  "h1_deforest": "La déforestation",
+  "article_deforest": "Les forêts renferment 662 milliards de tonnes de carbone (2020),\nce qui représente plus de 50% du stock mondial des sols et de la végétation.\nDe plus elles abritent environ 80% des espèces animales terrestres et nombre d'espèces menacées\n( 75% des espèces champignons, 66% des plantes et 45% des animaux.)\n\nla superficie d'un terrain de football de forêt disparaît chaque seconde dans le monde.",
+  "h2_deforest": "Quelque chiffres",
+  "p1_deforest": "les forêts abritent 80% de la biodiversité terrestre mondiale",
+  "p2_deforest": "\"Ce sont encore 10 millions d'hectares de forêts qui étaient éliminés chaque année sur la période 2015-2020\"",
+  "p3_deforest": "L'agriculture est responsable d'environ 88% de la déforestation mondiale",
+  "p4_deforest": "C'est informations ont été fourni par la"
+
 }
