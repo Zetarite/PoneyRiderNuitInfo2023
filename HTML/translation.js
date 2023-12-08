@@ -12,6 +12,7 @@ function setLanguagePreference(lang) {
 
 // Function to change language
 async function changeLanguage(lang) {
+    console.log("lang : " + lang);
     await setLanguagePreference(lang);
 
     const langData = await fetchLanguageData(lang);
@@ -29,3 +30,25 @@ window.addEventListener('DOMContentLoaded', async () => {
     const langData = await fetchLanguageData(userPreferredLanguage);
     updateContent(langData);
 });
+
+let buttons = document.createElement("div");
+
+let button = document.createElement("option");
+button.value = "fr";
+button.text = "français";
+buttons.appendChild(button);
+button.addEventListener("click", () => changeLanguage('fr'));
+
+button = document.createElement("option");
+button.value = "en";
+button.text = "english";
+buttons.appendChild(button);
+button.addEventListener("click", () => changeLanguage('en'));
+
+button = document.createElement("option");
+button.value = "elf";
+button.text = "elfique";
+buttons.appendChild(button);
+button.addEventListener("click", () => changeLanguage('elf'));
+
+document.querySelector("body").prepend(buttons);

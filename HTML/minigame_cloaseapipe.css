@@ -1,0 +1,33 @@
+#pipes {
+    display: block;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    background: url("Ressourses/pipes.png");
+}
+main{
+    display: flex;
+    flex-flow: column;
+}
+.block{
+    width:40px;
+    height: 40px;
+    position: relative;
+    margin-right: -40px;
+}
+
+#messager{
+    border: 2px solid black;
+    width: fit-content;
+    margin: auto;
+    margin-top:10px;
+    padding: 5px;
+    background: rgb(241, 220, 146);
+}
+
+#messager *{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
