@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>sources</title>
+    <link rel="stylesheet" href="petrol.css">
 </head>
 <body>
 <nav>
   <ul>
     <li><button onclick="changeLanguage('fr')">Français</button></li>
     <li><button onclick="changeLanguage('en')">English</button></li>
+    <li><button onclick="changeLanguage('elf')">Elfique</button></li>
   </ul>
 </nav>
   <h1 data-i18n="h1_sources"></h1>
@@ -67,6 +69,35 @@
     </article>
 
   </section>
+<footer>
+  <nav class="nav-foot">
+    <section class="foot-sect">
+      <a class="foot-title" href="#" data-i18n="Contact"></a>
+      <div class="footer-links">
+        <ul>
+          <li><a href="#" data-i18n="IUT"></a></li>
+        </ul>
+      </div>
+    </section>
+    <section class="foot-sect">
+      <a class="foot-title" href="#" data-i18n="a_propos"></a>
+      <div class="footer-links">
+        <ul>
+          <li><a href="#" data-i18n="equipe"></a></li>
+
+        </ul>
+      </div>
+    </section>
+    <section class="foot-sect">
+      <a class="foot-title" href="#" data-i18n="src"></a>
+      <div class="footer-links">
+        <ul>
+          <li><a href="#" data-i18n="src2"></a></li>
+        </ul>
+      </div>
+    </section>
+  </nav>
+</footer>
 </body>
 <script src="translation.js"></script>
 </html>

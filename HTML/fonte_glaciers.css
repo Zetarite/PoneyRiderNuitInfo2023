@@ -1,5 +1,5 @@
 header{
-    background-image:url(fonte-glace-arctique-antarctique-rechauffement-climatique.jpg);
+    background-image:url(HTML/Ressourses/fonte-glace-arctique-antarctique-rechauffement-climatique.jpg);
     background-size: cover;
     height: 150px;
 }
@@ -9,7 +9,7 @@ body{
 }
 
 .navbar{
-  background-image: url(./HTML/Ressourses/pexels-pixabay-122429.jpg);
+  background-image: url(Ressourses/pexels-pixabay-122429.jpg);
   display: flex;
   justify-content: center;
   align-items: center;
