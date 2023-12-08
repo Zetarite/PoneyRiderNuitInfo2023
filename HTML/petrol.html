@@ -7,70 +7,75 @@
     <link href="petrol.css" rel="stylesheet">
 </head>
 <body>
-
-    <h1>L'industrie pétrolière</h1>
+<nav>
+    <ul>
+        <li><button onclick="changeLanguage('fr')">Français</button></li>
+        <li><button onclick="changeLanguage('en')">English</button></li>
+    </ul>
+</nav>
+    <h1 data-i18n="h1_petrol"></h1>
     <section id="resume">
         <header>
-            <h2>Résumé</h2>
+            <h2 data-i18n="h2_petrol"></h2>
         </header>
         <article>
-        <h3>Importance du pétrole</h3>
-        <p>Le pétrole est une huile minérale composé d'hydrocarbure.
-        L'exploitation de cette matière a permit l'essor industriel et de grandes avancés dans le monde technologique.</p>
+        <h3 data-i18n="h3_petrol"></h3>
+        <p data-i18n="p1_petrol"></p>
         </article>
         <article>
-        <h3>Problèmes de son utilisation</h3>
-        <p>Le pétrole est une matière hautement polluante. En effet, son utilisation la plus classique est de la brûler pour récupérer l'énergie thermique. Ce procédé produit énormément de CO2.</p>
+        <h3 data-i18n="h3_problem_petrol"></h3>
+        <p data-i18n="p2_petrol"></p>
         </article>
     </section>
     <section>
         <header>
-            <h2>Problématique du pétrole</h2>
-            <p>Le pétrole est un élément extrêmement polluant et surtout <strong>non_renouvelabes</strong>.</p>
-            <p>Le terme non_renouvelable signifie que sa vitesse de réapparition dépasse largement le seuil de longévité de notre société.</p>
+            <h2 data-i18n="h2_problem_petrol"></h2>
+            <p data-i18n="p3_petrol"><strong data-i18n="strong_petrol"></strong>.</p>
+            <p data-i18n="p4_petrol"></p>
         </header>
-        <h2>Quelques chiffres marquant :</h2>
+        <h2 data-i18n="h2_chiffre_petrol"></h2>
         <ul>
-            <li>Le pétrole participe à hauteur de 33,7% aux émissions de CO2 de l'énergie en 2019.</li>
-            <li>Il a fallu environ 20 à 350 millions d'années pour créer les ressources pétrolières actuelles.</li>
-            <li>Au rythme de consommation actuel, nous épuiserons le pétrole dans 56 ans.</li>
-            <li>Le pétrol est utilisé depuis l'antiquité, mais son utilisation prit de l'importance lors de la première guerre mondiale.</li>
+            <li data-i18n="li1_chiffre_petrol"></li>
+            <li data-i18n="li2_chiffre_petrol"></li>
+            <li data-i18n="li3_chiffre_petrol"></li>
+            <li data-i18n="li4_chiffre_petrol"></li>
         </ul>
     </section>
 
     <section>
         <header>
-            <h2>Les solutions possibles à votre échelle :</h2>
+            <h2 data-i18n="h2_soluce_petrol"></h2>
         </header>
         <article>
-            <h3>Limiter l'usage de vos voitures</h3>
-            <p>Les voitures consomment du pétrole et rejettent du CO2. Pour limiter leur impact limitez son usage.</p>
-            <p>Rappelez-vous, le vélo c'est rigolo !</p>
+            <h3 data-i18n="h3_soluce_petrol"></h3>
+            <p data-i18n="p1_soluce_petrol"></p>
+            <p data-i18n="p2_soluce_petrol"></p>
         </article>
         <article>
-            <h3>Limitez vos produits plastiques</h3>
-            <p>Le plastique est composé principalement à base de pétrole. Pensez aux sacs cartons pour vos sacs ou aux jouets en bois.</p>
-            <p>Plus durable et plus sain, c'est une autre façon de penser malin.</p>
+            <h3 data-i18n="h3_prod_petrol"></h3>
+            <p data-i18n="p1_prod_petrol"></p>
+            <p data-i18n="p2_prod_petrol"></p>
         </article>
         <article>
-            <h3>Consommer des produits locaux et de saison</h3>
-            <p>Le transport agro-alimentaire génère une grande quantité de pollution. Pensez aux producteurs locaux.</p>
+            <h3 data-i18n="h3_cons_petrol"></h3>
+            <p data-i18n="p_cons_petrol"></p>
         </article>
         <article>
-            <h3>Rénovez vos chaudière à fioul</h3>
-            <p>Beaucoup de chaudière restent au fioul. La rénover peut vous permettre d'économiser et de moins polluer.</p>
-            <p>On est toujours mieux proches d'un feu de bois.</p>
+            <h3 data-i18n="h3_ren_petrol"></h3>
+            <p data-i18n="p1_ren_petrol"></p>
+            <p data-i18n="p2_ren_petrol"></p>
         </article>
         <article>
-            <h3>Tournez vous vers des énergies propres.</h3>
-            <p>Solaire, éolien, hydroliques, toute solution naturelle vous permettra des économies à long terme, en plus d'améliorer votre empreinte carbone. </p>
-            <p>Soyez propre. Monsieur propre.</p>
+            <h3 data-i18n="h3_ene_petrol"></h3>
+            <p data-i18n="p1_ene_petrol"></p>
+            <p data-i18n="p2_ene_petrol"></p>
         </article>
     </section>
 
     <section>
-        <h2>puzzle pipe</h2>
+        <h2 data-i18n="h2_puzzle_petrol"></h2>
         <!--- à mettre le jeu !--->
     </section>
 </body>
+<script src="translation.js"></script>
 </html>
