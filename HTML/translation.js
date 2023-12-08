@@ -31,24 +31,30 @@ window.addEventListener('DOMContentLoaded', async () => {
     updateContent(langData);
 });
 
-let buttons = document.createElement("div");
+let buttons = document.querySelector(".nav-links ul");
+console.log("log : " + buttons);
 
-let button = document.createElement("option");
+let button = document.createElement("button");
 button.value = "fr";
-button.text = "français";
-buttons.appendChild(button);
+button.textContent = "Français";
+button.id = "botBorder";
+let li = document.createElement("li");
+li.appendChild(button);
+buttons.prepend(li);
 button.addEventListener("click", () => changeLanguage('fr'));
 
-button = document.createElement("option");
+button = document.createElement("button");
 button.value = "en";
-button.text = "english";
-buttons.appendChild(button);
+button.textContent = "English";
+li = document.createElement("li");
+li.appendChild(button);
+buttons.prepend(li);
 button.addEventListener("click", () => changeLanguage('en'));
 
-button = document.createElement("option");
+button = document.createElement("button");
 button.value = "elf";
-button.text = "elfique";
-buttons.appendChild(button);
+button.textContent = "Elfique";
+li = document.createElement("li");
+li.appendChild(button);
+buttons.prepend(li);
 button.addEventListener("click", () => changeLanguage('elf'));
-
-document.querySelector("body").prepend(buttons);
