@@ -12,19 +12,15 @@ body{
  
     background-color: rgb(225, 225, 225);
 }
-main>section{
-    width: 100%;
-    display: grid;
-
-}
-main>section>img{
-    justify-self: center;
-    width: 35%;
-    border-radius: 25px;
- 
-}
-.gros{
+.fao{
     width: 20%;
+    border-radius: 25px;
+}
+.intro{
+    text-align: center;
+}
+.infoscarres{
+    text-align: center;
 }
 main>section>p{
     text-align: center;
