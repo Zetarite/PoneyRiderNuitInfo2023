@@ -62,5 +62,21 @@
   "h3_ene_petrol": "Tournez vous vers des énergies propres.",
   "p1_ene_petrol": "Solaire, éolien, hydroliques, toute solution naturelle vous permettra des économies à long terme, en plus d'améliorer votre empreinte carbone.",
   "p2_ene_petrol": "Soyez propre. Monsieur propre.",
-  "h2_puzzle_petrol": "puzzle pipe"
+  "h2_puzzle_petrol": "puzzle pipe",
+
+  "h1_sources": "Sources :",
+  "p1_sources": "Ce site permet une compréhension approfondie du sujet et de ses enjeux avec des définitions complètes.",
+  "p2_sources": "Ce site propose de nombreuses solutions physiques et écrites sur l'écologie et ses défis.",
+  "p3_sources": "Ce site offre une perspective engagée sur l'écologie et des actions concrètes.",
+  "p4_sources": "Cette organisation regroupe des associations engagées dans le climat, offrant une grande variété d'opinions et de sujets possibles.",
+  "p5_sources": "L'organisation internationale compilant les sciences liées au changement climatique.",
+  "p6_sources": "Un chatbot informé sur les derniers rapports du GIEC et répondant aux questions de base sur le sujet.",
+  "p7_sources": "Le conseil gérant les réunions inter-pays de la COP. Utile pour les opinions et normes mondiales.",
+  "p8_sources": "Utilisé pour le mini-jeu de recyclage. Le site est une bonne source d'information sur l'écologie.",
+  "p9_sources": "Utilisé pour le mini-jeu de recyclage. Ce site présente une vision simple et efficace des enjeux. Points bonus pour son interface agréable.",
+  "p10_sources": "Utilisé pour divers chiffres sur l'importance des forêts pour la biodiversité.",
+  "p11_sources": "Utilisé pour différentes statistiques concernant le soja et la déforestation au Brésil.",
+  "p12_sources": "Utilisé pour orienter la recherche et trouver des informations supplémentaires.",
+  "p13_sources": "Le site web de la FAO, utilisé comme source dans de nombreux autres sites concernant la déforestation."
+
 }
