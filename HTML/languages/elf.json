@@ -62,6 +62,22 @@
   "h3_ene_petrol": "Tolvo i hyammar ilquenya.",
   "p1_ene_petrol": "Anar, laurëo, nai hyaltielva, melma tence lúva quetuvan carcaitaris, ar horya lámana ilquenya hentaneldi, tence lámalma númeneldi.",
   "p2_ene_petrol": "Síya quetuvan. Hantalë quetuvan.",
-  "h2_puzzle_petrol": "puzzle pipe"
+  "h2_puzzle_petrol": "puzzle pipe",
+
+  "h1_sources": "Alcar:",
+  "p1_sources": "Elen siluva lyenna-lenna n'olo siluva lyenna-lenna.",
+  "p2_sources": "Elen siluva lyenna-lenna n'olo vinye i corma.",
+  "p3_sources": "Elen siluva lyenna-lenna n'olo nauva i corma.",
+  "p4_sources": "Sinome lambëa yulmë n'ingoldor, lambë ar caita ar cemen.",
+  "p5_sources": "I eldaron lóteando nauvar i hrestar nér.",
+  "p6_sources": "Noldo-morco nér i Eldaron ohtari IPPC ar cennen i cuilë.",
+  "p7_sources": "I herendion autanëa COP i coranar-mondo. Nilda ar i nótina.",
+  "p8_sources": "Lóteando i coa-luini. I lambë ná i alcar ar i alcar ná i lambë.",
+  "p9_sources": "Lóteando i coa-luini. I lambë ná i alcar ar i alcar ná i lambë. Nai men antaina.",
+  "p10_sources": "Lóteando melda i quessë ná i hroa mitta i elenion.",
+  "p11_sources": "Lóteando aldarion i ehtele ilfirin nér ar i Verkëa.",
+  "p12_sources": "Lóteando hresta ar antaina nauvar.",
+  "p13_sources": "Lindaron FAO, lóteando alcar nér mitta i lindaron lótear."
+
 
 }
